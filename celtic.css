@@ -1,14 +1,14 @@
 .blob{
     z-index: 1;
     position: absolute;
-    margin-left: 45%;
+    margin-left: 65%;
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
-    margin-left: 30%;
-    margin-bottom: 40%;
+    margin-left: 20%;
+    margin-bottom: 60%;
 }
 
 .text{
@@ -18,23 +18,23 @@ label.icon{
     display: none;
 }
 .header{
-    background: red;
+    background: linen;
 }
 .Services{
-    background: yellow;
+    background: cornsilk;
 }
 .industries{
-    background: orange;
+    background: blue;
 }
 .contact{
-    padding-top: 45px;
-    background: blue;
+    padding-top: 35px;
+    background: red;
 }
 
 
 @media only screen and (max-width: 420px){
     .logo{
-       margin-right: 120px;
+       margin-right: 150px;
     }
 
   
@@ -55,11 +55,11 @@ label.icon{
     .menu{
         display: none;
         width: 100%;
-        margin-bottom: 0.5rem;
+        margin-bottom: 2rem;
     }
     label.icon {
         display: block;
-        right: 40px;
+        right: 45px;
         position: absolute;
         top: 1.5rem;
     }
