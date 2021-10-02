@@ -1,0 +1,77 @@
+.blob{
+    z-index: 1;
+    position: absolute;
+    margin-left: 60%;
+}
+
+.blob1{
+    z-index: 1;
+    position: absolute;
+    margin-left: 2%;
+    margin-bottom: 50%;
+}
+
+.text{
+    z-index: 2;
+}
+label.icon{
+    display: none;
+}
+.header{
+    background: cornsilk;
+}
+.Services{
+    background: bisque;
+}
+.industries{
+    background: mintcream;
+}
+.contact{
+    padding-top: 75px;
+    background: linen;
+}
+
+
+@media only screen and (max-width: 420px){
+    .logo{
+       margin-right: 200px;
+    }
+
+  
+
+@media only screen and (max-width: 600px){
+    .logo{
+        margin-right: 300px;
+     }
+     .address{
+         padding-left: 1.5rem;
+     }
+
+ 
+}
+
+@media only screen and (max-width: 767px){
+
+    .menu{
+        display: none;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    label.icon {
+        display: block;
+        right: 40px;
+        position: absolute;
+        top: 25px;
+    }
+    .tred {
+        margin-left: 45%;
+    }
+    
+    .icon:hover .menu {
+        display: grid;
+        width: 100%;
+    }
+    
+    
+}
+}
