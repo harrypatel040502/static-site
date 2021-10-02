@@ -1,13 +1,13 @@
 .blob{
     z-index: 1;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 55%;
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-bottom: 20%;
 }
 
@@ -27,7 +27,7 @@ label.icon{
     background: black;
 }
 .contact{
-    padding-top: 75px;
+    padding-top: 70px;
     background: green;
 }
 
