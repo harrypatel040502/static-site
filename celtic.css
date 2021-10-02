@@ -1,14 +1,14 @@
 .blob{
     z-index: 1;
     position: absolute;
-    margin-left: 20%;
+    margin-left: 40%;
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
-    margin-left: 45%;
-    margin-bottom: 30%;
+    margin-left: 35%;
+    margin-bottom: 20%;
 }
 
 .text{
@@ -18,13 +18,13 @@ label.icon{
     display: none;
 }
 .header{
-    background: lightblue;
+    background: blue;
 }
 .Services{
-    background: cornsilk;
+    background: linen;
 }
 .industries{
-    background: white;
+    background: black;
 }
 .contact{
     padding-top: 75px;
@@ -34,17 +34,17 @@ label.icon{
 
 @media only screen and (max-width: 420px){
     .logo{
-       margin-right: 300px;
+       margin-right: 250px;
     }
 
   
 
 @media only screen and (max-width: 600px){
     .logo{
-        margin-right: 400px;
+        margin-right: 40px;
      }
      .address{
-         padding-left: 30px;
+         padding-left: 45px;
      }
 
  
