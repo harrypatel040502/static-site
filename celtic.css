@@ -1,14 +1,14 @@
 .blob{
     z-index: 1;
     position: absolute;
-    margin-left: 55%;
+    margin-left: 45%;
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
-    margin-left: 40%;
-    margin-bottom: 20%;
+    margin-left: 30%;
+    margin-bottom: 40%;
 }
 
 .text{
@@ -18,23 +18,23 @@ label.icon{
     display: none;
 }
 .header{
-    background: blue;
+    background: red;
 }
 .Services{
-    background: linen;
+    background: yellow;
 }
 .industries{
-    background: black;
+    background: orange;
 }
 .contact{
-    padding-top: 70px;
-    background: green;
+    padding-top: 45px;
+    background: blue;
 }
 
 
 @media only screen and (max-width: 420px){
     .logo{
-       margin-right: 250px;
+       margin-right: 120px;
     }
 
   
