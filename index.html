@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="./celtic.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
@@ -16,7 +16,7 @@
         <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              <path d="10-5"></path>
           
             <span class="logo ml-5 text-xl">CELTIC</span>
           </a>
@@ -28,7 +28,7 @@
             <nav class="menu md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
               <a class="mr-7 hover:text-black" href="./index.html">Home</a>
               <a class="mr-7 hover:text-black" href="#Services">Services</a>
-              <a class="mr-7 hover:text-black" href="#industries">Industries</a>
+              
               <a class="mr-7 hover:text-black" href="#Aboutus">About Us</a>
               <button class="inline-flex items-center bg-indigo-500 border-0 text-white py-1 px-3 focus:outline-none hover:bg-indigo-600 hover:text-white rounded text-base mt-4 md:mt-0">Contact Us
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -43,7 +43,7 @@
         </div>
       </header>
     <!-- * -->
-      <section class="header text-gray-400 body-font">
+      <section class="header text-gray-200 body-font">
         
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -51,11 +51,11 @@
           </div>
           <div class="blob">
                 <!-- * -->
-            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300%" id="blobSvg">
+            <svg viewBox="100 0 50 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300%" id="blobSvg">
               <defs>
-                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop offset="0%" style="stop-color: rgb(155, 255, 255);"></stop>
-                  <stop offset="100%" style="stop-color: rgb(255, 100, 113);"></stop>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="50%">
+                  <stop offset="0%" style="stop-color: rgb(155, 155, 255);"></stop>
+                  <stop offset="100%" style="stop-color: rgb(25, 200, 103);"></stop>
                 </linearGradient>
               </defs>
               <path id="blob" d="M443.5,295.5Q391,341,364.5,391.5Q338,442,281,436Q224,430,166.5,421Q109,412,81.5,360Q54,308,40,246Q26,184,78.5,148.5Q131,113,178,93Q225,73,284.5,59Q344,45,385.5,90.5Q427,136,461.5,193Q496,250,443.5,295.5Z" fill="url(#gradient)"></path>
@@ -63,7 +63,7 @@
           </div>
           <div class="text lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <!-- * -->
-            <h1 class="title-font sm:text-4xl text-3xl mb-5 font-medium text-gray-200">
+            <h1 class="title-font sm:text-4xl text-3xl mb-5 font-medium text-gray-100">
               <br class="hidden lg:inline-block">Software <br>Development
             </h1>
             <p class="mb-6 leading-relaxed">We are driven to transform your ideas into software that works and wins. Our expertise helps us to recognize the unseen blockers between your vision and the reality. We break these blockers with our software development services to see businesses making high strides. </p>
@@ -72,7 +72,7 @@
         </div>
       </section>
     <!-- * -->
-      <section id="Services" class="Services text-gray-400 body-font">
+      <section id="Services" class="Services text-gray-200 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-18 flex-col items-center text-center">
             <h1 class="sm:text-3xl text-xl font-medium title-font mb-2 text-gray-900">Services</h1>
@@ -111,7 +111,7 @@
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Frontend Development</h2>
+                <h2 class="text-lg text-gray-500 font-medium title-font mb-2">Frontend Development</h2>
                 <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
               </div>
             </div>
@@ -129,9 +129,9 @@
             <div class="blob1">
               <svg viewBox="0 0 0 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250%" id="blobSvg">
                 <defs>
-                  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <linearGradient id="gradient" x1="110%" y1="0%" x2="0%" y2="100%">
                     <stop offset="0%" style="stop-color: rgb(238, 205, 163);"></stop>
-                    <stop offset="100%" style="stop-color: rgb(59, 55, 57);"></stop>
+                    <stop offset="100%" style="stop-color: rgb(59, 255, 57);"></stop>
                   </linearGradient>
                 </defs>
                 <path id="blob" d="M373,334Q250,418,144,334Q38,250,144,159.5Q250,69,373,159.5Q496,250,373,334Z" fill="url(#gradient)"></path>
@@ -344,16 +344,16 @@
               <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a class="text-gray-600 hover:text-gray-100">First Link</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a class="text-gray-600 hover:text-gray-100">Second Link</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a class="text-gray-600 hover:text-gray-100">Third Link</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a class="text-gray-600 hover:text-gray-100">Fourth Link</a>
                 </li>
               </nav>
             </div>
