@@ -1,6 +1,10 @@
 .blob{
 
     z-index: 1;
+
+    position: relative;
+    margin-left: 65%;
+
     position: absolute;
     margin-left: 45%;
 
@@ -10,10 +14,20 @@
     margin-left: 50%;
 
 
+
 }
 
 .blob1{
     z-index: 1;
+
+    position: relative;
+    margin-left: 20%;
+    margin-bottom: 60%;
+}
+
+.text{
+    z-index: 3;
+
     position: absolute;
 
     margin-left: 30%;
@@ -31,6 +45,7 @@
 
 .text{
     z-index: 1;
+
 }
 label.icon{
     display: none;
@@ -72,12 +87,16 @@ label.icon{
 @media only screen and (max-width: 420px){
     .logo{
 
+       margin-right: 200px;
+
+
        margin-right: 250px;
 
 
        margin-right: 170px;
 
        margin-right: 200px;
+
 
 
     }
@@ -121,7 +140,11 @@ label.icon{
         top: 1.5rem;
     }
     .tred {
+
+        margin-left: 30%;
+
         margin-left: 450%;
+
     }
     
     .icon:hover .menu {
