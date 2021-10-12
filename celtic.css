@@ -1,18 +1,18 @@
 .blob{
-    z-index: 1;
-    position: absolute;
-    margin-left: 65%;
+    z-index: 3;
+    position: standard;
+    margin-left: 50%;
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
-    margin-left: 20%;
-    margin-bottom: 60%;
+    margin-left: 50%;
+    margin-bottom: 20%;
 }
 
 .text{
-    z-index: 2;
+    z-index: 1;
 }
 label.icon{
     display: none;
@@ -24,17 +24,17 @@ label.icon{
     background: cornsilk;
 }
 .industries{
-    background: blue;
+    background: green;
 }
 .contact{
     padding-top: 35px;
-    background: red;
+    background: blue;
 }
 
 
 @media only screen and (max-width: 420px){
     .logo{
-       margin-right: 150px;
+       margin-right: 200px;
     }
 
   
@@ -44,7 +44,7 @@ label.icon{
         margin-right: 40px;
      }
      .address{
-         padding-left: 45px;
+         padding-left: 50px;
      }
 
  
@@ -64,12 +64,12 @@ label.icon{
         top: 1.5rem;
     }
     .tred {
-        margin-left: 45%;
+        margin-left: 450%;
     }
     
     .icon:hover .menu {
         display: grid;
-        width: 100%;
+        width: 200%;
     }
     
     
