@@ -1,14 +1,25 @@
 .blob{
+
+    z-index: 1;
+    position: absolute;
+    margin-left: 45%;
+
     z-index: 3;
     position: standard;
     margin-left: 50%;
+
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
+
+    margin-left: 30%;
+    margin-bottom: 70%;
+
     margin-left: 50%;
     margin-bottom: 20%;
+
 }
 
 .text{
@@ -18,33 +29,46 @@ label.icon{
     display: none;
 }
 .header{
-    background: linen;
+    background: blue;
 }
 .Services{
-    background: cornsilk;
+    background: linen;
 }
 .industries{
     background: green;
 }
 .contact{
+
+    padding-top: 45px;
+    background: yellow;
+
     padding-top: 35px;
     background: blue;
+
 }
 
 
 @media only screen and (max-width: 420px){
     .logo{
+
+       margin-right: 170px;
+
        margin-right: 200px;
+
     }
 
   
 
 @media only screen and (max-width: 600px){
     .logo{
-        margin-right: 40px;
+        margin-right: 50px;
      }
      .address{
+
+         padding-left: 55px;
+
          padding-left: 50px;
+
      }
 
  
@@ -55,11 +79,11 @@ label.icon{
     .menu{
         display: none;
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     label.icon {
         display: block;
-        right: 45px;
+        right: 35px;
         position: absolute;
         top: 1.5rem;
     }
