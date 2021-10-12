@@ -1,18 +1,29 @@
 .blob{
+
     z-index: 1;
     position: absolute;
     margin-left: 45%;
+
+    z-index: 3;
+    position: standard;
+    margin-left: 50%;
+
 }
 
 .blob1{
     z-index: 1;
     position: absolute;
+
     margin-left: 30%;
     margin-bottom: 70%;
+
+    margin-left: 50%;
+    margin-bottom: 20%;
+
 }
 
 .text{
-    z-index: 2;
+    z-index: 1;
 }
 label.icon{
     display: none;
@@ -27,14 +38,23 @@ label.icon{
     background: green;
 }
 .contact{
+
     padding-top: 45px;
     background: yellow;
+
+    padding-top: 35px;
+    background: blue;
+
 }
 
 
 @media only screen and (max-width: 420px){
     .logo{
+
        margin-right: 170px;
+
+       margin-right: 200px;
+
     }
 
   
@@ -44,7 +64,11 @@ label.icon{
         margin-right: 50px;
      }
      .address{
+
          padding-left: 55px;
+
+         padding-left: 50px;
+
      }
 
  
@@ -64,12 +88,12 @@ label.icon{
         top: 1.5rem;
     }
     .tred {
-        margin-left: 45%;
+        margin-left: 450%;
     }
     
     .icon:hover .menu {
         display: grid;
-        width: 100%;
+        width: 200%;
     }
     
     
